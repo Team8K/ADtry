@@ -1,0 +1,63 @@
+game:
+  mode: classic
+  round_time: 20
+  start_time: 2023-04-01 12:30:00
+  timezone: Europe/Moscow
+
+  default_score: 2500
+  flag_lifetime: 5
+  game_hardness: 10.0
+  inflation: true
+
+tasks:
+  - checker: 5Go/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2
+    name: 5Go
+    places: 5
+    puts: 2
+
+  - checker: modelrna/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2
+    name: modelrna
+    places: 5
+    puts: 2
+
+  - checker: sputnik_v8/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2  
+    name: modelrna
+    places: 5
+    puts: 2
+
+  - checker: virush/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2  
+    name: modelrna
+    places: 5
+    puts: 2  
+
+  - checker: kuar/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2  
+    name: kuar
+    places: 5
+    puts: 2 
+
+  - checker: vacc_ex/checker.py
+    checker_timeout: 10
+    checker_type: hackerdom
+    gets: 2  
+    name: vacc_ex
+    places: 5
+    puts: 2 
+
+teams:
+  - ip: 10.152.34.240
+    name: "TeamTest"
