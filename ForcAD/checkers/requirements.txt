@@ -5,7 +5,7 @@ catboost
 pycryptodomex==3.11.0
 pycryptodome==3.9.7
 grpcio==1.43.0
-protobuf==3.19.3
+protobuf==3.19.5
 six==1.16.0
 pyzbar==0.1.8
 Pillow==7.0.0
